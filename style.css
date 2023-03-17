@@ -1,0 +1,109 @@
+body {
+    overflow-x: hidden !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+img{
+    height: 100px;
+    width: auto;
+    margin: auto;
+    align-items: center;
+}
+header{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+header h1{
+    color: whitesmoke;
+    padding-bottom: 5px;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(78, 217, 8);
+}
+
+.eligibility div{
+    padding: 10px;
+    text-align: center;
+}
+
+.eligibility div a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: black;
+}
+
+section{
+    padding: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+    width: 100%;
+    margin: auto;
+    background-color: rgb(78, 217, 8);
+    
+}
+section p{
+    padding: 5px;
+}
+
+.wwo h3{
+    text-align: center;
+}
+.wwo ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.wwo ul li{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.maincontent ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.maincontent ul li{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.end .endcontent{
+    text-align: center;
+    /* padding: 40px; */
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    padding-top: 0px;
+}
+.end{
+    display: flex;
+    /* list-style: none; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
